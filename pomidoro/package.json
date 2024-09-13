@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build:css": "npx tailwindcss -o src/styles/output.css --minify"
-
   },
   "dependencies": {
+    "firebase": "^10.13.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
