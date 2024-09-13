@@ -1,7 +1,7 @@
 function GreenHousePage() {
   return (
    <div>
-
+....
   </div>
   );
 }
