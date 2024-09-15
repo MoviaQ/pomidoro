@@ -8,8 +8,8 @@ const firebaseConfig = {
   projectId: "pomidoro-9a244",
   storageBucket: "pomidoro-9a244.appspot.com",
   messagingSenderId: "992279755197",
-  appId: "1:992279755197:web:9212262498aa2fc6ff7ad4",
-  measurementId: "G-L3EFPDPTP9",
+  appId: "1:992279755197:web:0a8ec8cc96013de9ff7ad4",
+  measurementId: "G-PS2991D98X"
 };
 
 // Initialize Firebase
