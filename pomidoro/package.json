@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"vite\" \"wait-on http://localhost:3000 && electron .\"",
     "build": "vite build",
+    "electron": "electron .",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:css": "npx tailwindcss -o src/styles/output.css --minify"
+    "build:css": "npx tailwindcss -o src/styles/output.css --minify",
+    "start": "electron src/main.js"
   },
   "dependencies": {
     "firebase": "^10.13.1",
@@ -21,6 +23,9 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
+    "concurrently": "^9.0.1",
+    "electron": "^32.1.0",
+    "electron-builder": "^25.0.5",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
@@ -28,6 +33,7 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.11",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "wait-on": "^8.0.1"
   }
 }

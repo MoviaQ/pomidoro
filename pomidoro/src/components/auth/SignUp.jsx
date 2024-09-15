@@ -7,7 +7,7 @@ import {
 
 import YellowButton from "../ReUsableComponents/YellowButton";
 
-function SignIn() {
+function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -29,12 +29,13 @@ function SignIn() {
   
 
   return (
-    <div>
+    <div className="flex flex-col mx-auto w1/2 bg-primary-light-green p-10 border-black border-2 rounded-lg">
+        <h2 className="text-4xl"> Please sign in!</h2>
       <input
         type="text"
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Email..."
-        className="p-2 m-5 border-2 border-black "
+        className="p-2 m-5 border-2 border-black w-80"
       />
       <input
         type="password"
@@ -43,12 +44,15 @@ function SignIn() {
         className="p-2 m-5 border-2 border-black "
       />
 
-      <YellowButton text="Sign in" func={signIn} />
-      <YellowButton text="Sign in with Google" func={signInWithGoogle} />
+      <YellowButton text="Sign up" func={signIn} />
+      <YellowButton text="
+      ɢ
+      Sign up with Google" func={signInWithGoogle} />
 
       
     </div>
   );
 }
 
-export default SignIn;
+export default SignUp
+;

@@ -7,9 +7,9 @@ module.exports = {
     extend: { 
       colors: {
         'primary-light-green': "#BCC596",
-        'primary-ligth-orange': "#BCC596",
-        'primary-ligth-yellow': "#BCC596",
-        'primary-heavy-green': "#BCC596",
+        'primary-ligth-orange': "#F4BE82",
+        'primary-ligth-yellow': "#F7E4AA",
+        'primary-heavy-green': "#779C8A",
       },
       fontFamily: {
         'sans': ['Nerko One', 'sans-serif'], // Ustawia Nerko One jako domyślną czcionkę sans
