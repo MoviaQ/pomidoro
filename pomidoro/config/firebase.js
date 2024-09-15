@@ -4,12 +4,12 @@ import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "pomidoro-9a244.firebaseapp.com",
-  projectId: "pomidoro-9a244",
-  storageBucket: "pomidoro-9a244.appspot.com",
-  messagingSenderId: "992279755197",
-  appId: "1:992279755197:web:0a8ec8cc96013de9ff7ad4",
-  measurementId: "G-PS2991D98X"
+  authDomain: "pomiidoro.firebaseapp.com",
+  projectId: "pomiidoro",
+  storageBucket: "pomiidoro.appspot.com",
+  messagingSenderId: "641281417761",
+  appId: "1:641281417761:web:d0179621be7fc7aa7db960",
+  measurementId: "G-ZNQ62GZ48Q"
 };
 
 // Initialize Firebase
