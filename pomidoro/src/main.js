@@ -13,7 +13,7 @@ function createWindow() {
   });
 
   // Załaduj stronę z Vite
-  mainWindow.loadURL("http://localhost:5173");
+  mainWindow.loadURL("http://localhost:5174");
 }
 
 app.whenReady().then(() => {

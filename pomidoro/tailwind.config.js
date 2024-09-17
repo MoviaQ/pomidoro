@@ -14,6 +14,15 @@ module.exports = {
       fontFamily: {
         'sans': ['Nerko One', 'sans-serif'], // Ustawia Nerko One jako domyślną czcionkę sans
       },
+      transitionProperty: {
+        'dropdown': 'opacity, transform'
+      },
+      transitionDuration: {
+        'dropdown': '300ms'
+      },
+      transform: {
+        'dropdown': 'translateY(-10px)'
+      },
     },
   },
   plugins: [],
