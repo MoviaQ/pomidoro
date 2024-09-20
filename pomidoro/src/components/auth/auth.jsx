@@ -16,7 +16,7 @@ function Auth() {
   }
 
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-primary-ligth-yellow">
+    <main className="flex flex-col items-center justify-center h-screen bg-primary-light-yellow">
       <div>
         <button className="text-xl m-2 p-2 hover:text-gray-700" onClick={() => handleSwitch("signIn")}>Sign in</button>
         <button className="text-xl m-2 p-2 hover:text-gray-700" onClick={() => handleSwitch("logIn")}>Log in</button>

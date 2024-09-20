@@ -7,8 +7,8 @@ module.exports = {
     extend: { 
       colors: {
         'primary-light-green': "#BCC596",
-        'primary-ligth-orange': "#F4BE82",
-        'primary-ligth-yellow': "#F7E4AA",
+        'primary-light-orange': "#F4BE82",
+        'primary-light-yellow': "#F7E4AA",
         'primary-heavy-green': "#779C8A",
       },
       fontFamily: {

@@ -5,8 +5,9 @@ function OrchardPage() {
  
 
   return (
-    <div>
-      <Header />
+    <div className="bg-primary-light-green h-screen">
+          <Header color="bg-primary-light-orange" greenHouseHover="hover:bg-primary-light-yellow" orchardHover="hover:bg-primary-light-green" shopHover="hover:bg-[#F6CC9D]" />
+
     </div>
   );
 }
