@@ -28,7 +28,7 @@ function LogIn() {
   };
 
   return (
-    <div className="flex flex-col mx-auto w1/2 bg-primary-ligth-orange p-10 border-black border-2 rounded-lg">
+    <div className="flex flex-col mx-auto w1/2 bg-primary-light-orange p-10 border-black border-2 rounded-lg">
       <h2 className="text-4xl"> Please log in!</h2>
       <input
         type="text"

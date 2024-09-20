@@ -1,11 +1,11 @@
 import Profile from "./Profile";
 import HeaderNav from "./HeaderNav";
-function Header() {
+function Header(props) {
   return (
-    <div className="bg-primary-light-green h-screen p-4 text-black text-xl flex">
+    <div className="p-4 text-black text-xl flex">
       <Profile />
-      <div className="flex flex-1 justify-center">
-        <HeaderNav />
+      <div className=" flex flex-1 justify-center">
+        <HeaderNav color={props.color} greenHouseHover={props.greenHouseHover} orchardHover={props.orchardHover} shopHover={props.shopHover}/>
       </div>
     </div>
   );
