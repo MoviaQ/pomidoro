@@ -43,8 +43,8 @@ function LogIn() {
         className="p-2 m-5 border-2 border-black "
       />
 
-      <YellowButton text="Log in" func={signIn} />
-      <YellowButton text="Log in with Google" func={signInWithGoogle} />
+      <YellowButton text="Log in" func={signIn}/>
+      <YellowButton text="Log in with Google" func={signInWithGoogle} imgSrc='https://img.icons8.com/?size=100&id=17949&format=png&color=000000'/>
     </div>
   );
 }
