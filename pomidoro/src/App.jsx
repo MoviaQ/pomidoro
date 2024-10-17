@@ -5,7 +5,7 @@ import Auth from './components/auth/auth';
 import OrchardPage from './components/OrchardPage/OrchardPage';
 import GreenHousePage from './components/GreenHousePage/GreenHousePage';
 import ShopPage from './components/ShopPage/ShopPage';
-
+import TitleTimer from './TitleTimer';
 const App = () => {
   const { user } = useUser();
 
@@ -16,6 +16,8 @@ const App = () => {
   return (
     <Router>
       {/* Opcjonalnie, jeśli chcesz mieć nawigację w nagłówku */}
+
+      <TitleTimer />
       
       <Routes>
         <Route path="/greenhouse" element={<GreenHousePage />} />
