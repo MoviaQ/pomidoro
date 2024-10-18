@@ -1,3 +1,4 @@
+// main.js
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
 
@@ -6,6 +7,7 @@ function createWindow() {
     width: 1200,
     height: 1000,
     webPreferences: {
+      preload: path.join(__dirname, 'preload.js'), // Dodaj preload script
       contextIsolation: true,
       nodeIntegration: false,
       worldSafeExecuteJavaScript: true,

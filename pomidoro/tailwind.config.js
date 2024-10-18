@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: { 
+      backgroundImage: {
+        'orchard-page': "url('/pomidoro/public/orchard.jpeg')",
+      },
       colors: {
         'primary-light-green': "#BCC596",
         'primary-light-orange': "#F4BE82",
